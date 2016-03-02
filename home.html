@@ -2,8 +2,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
+<link rel="stylesheet" type="text/css" href="cssindex.css"/>
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-<title>Group 1</title>
+<script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
+
+<title>Kuliner Jakarta</title>
 </head>
 
 <body>
@@ -13,16 +16,83 @@
 </div>
 
 
-<div><ul>
+<div>
+	<ul>
 	<li><a href="home.html"> Home</a></li>
 	<li><a href="makanan.html">Makanan</a></li>
 	<li><a href="directory.html">Directory</a></li>
 	<li><a href="promotions.html">Promotions</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
 	<li><a href="search.html">Search Us</a></li>	
-	</ul></div>
+	</ul>
+</div>
 	
 
+	
+	<div class="section">	
+	
+	<div><img src="image/asinan3bsr.jpg" width="80%" height="20%" class="img2"/>
+	</div>
+	<p> Asinan Betawi</p>
+
+	</div>
+	
+	<div class="section">	
+	
+	<div><img src="image/kafe betawi.jpeg" width="80%" height="20%" class="img2"/>
+	</div>
+	<p> Kafe Betawi</p>
+
+	</div>
+
+
+	
+<div class="article">	
+	
+	<div><img src="image/home.jpeg" width="80%" height="500px" class="img"/>
+	</div>
+	
+	<div>
+		
+			
+			<!-- <div class="comment more">-->
+			<p>Betawi merupakan sebutan untuk suku asli kota Jakarta. Sejarah betawi yang begitu dinamis mempengaruhi warisan kulinernya. Makanan Khas Betawi dipengaruhi oleh budaya Cina, Eropa, dan Arab. Citarasa gurih dan sedap merupakan ciri khas khas makanan Betawi. Sebenarnya, Betawi memiliki banyak makanan khas yang lezat. Namun, seiring perkembangan pesat kota Metropolitan Jakarta yang sekaligus ibukota negara Indonesia ini, Makanan Khas Betawi sudah banyak yang langka bahkan nyaris punah</p>
+					
+			<div class="hide">
+			<p>Masakan Betawi mudah ditemukan di acara-acara tertentu yang diselenggarakan di Jakarta se[erti pada acara Lebaran Betawi, pernikahan, hari raya atau di warung/restaurant yang menyajikan makanan khas Betawi</p>
+			<p>Beberapa jenis masakan Betawi memiliki kemiripan dengan masakan daerah lainnya seperti asinan Betawi mirip dengan asinan Bogor, perbedaannya hanya pada campuran bumbu-bumbu tertentu. Sebagian masakan Betawi hanya disajikan pada momen-momen tertentu misalnya sayur besan hanya bisa dijumpai pada prosesi besanan </p>
+			</div>
+	
+
+	</div>
+	<div>
+		<button id="readMore2"> Read more</button>
+	</div>
+</div>
+
+
 </body>
+
+
+
+<footer> 
+
+	<div id="footer1">Follow us 
+	</div>
+	
+	<div id="footer2">Copyright &copy; Pusat Info Kuliner Jakarta. All Right Reserved.
+	</div>
+
+</footer>
+
+
+<script>
+$(".hide").hide();
+	$("#readMore2").click(function(){
+$(".hide").slideToggle("fast");
+});
+
+</script>
+
 
 </html>
