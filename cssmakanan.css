@@ -1,1 +1,22 @@
-﻿
+﻿#title {
+	background-color:blue;
+	color:white;
+	font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+	text-align:center;
+	padding:1%;
+}
+
+.article {
+	text-align:justify;
+	font-family:"Courier New", Courier, monospace;
+	width:70%;
+	float:left;
+	
+}
+
+.img{
+	
+	float:left;
+	border-radius: 4%;
+	margin-bottom:1% 1% 1% 1%
+}
