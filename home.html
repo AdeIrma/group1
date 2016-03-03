@@ -6,38 +6,55 @@
 <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
 <script type="text/javascript" src="js/jquery-1.12.1.min.js"></script>
 
+
 <title>Kuliner Jakarta</title>
 </head>
 
-<body>
+<body style="background-color:#FFFFCC">
 
 <div id="header">
-<h1> PUSAT INFO KULINER JAKARTA</h1>
+<img src="image/images.jpeg" id="imghdr"/>KULINER JAKARTA
 </div>
 
 
 <div>
 	<ul>
-	<li><a href="home.html"> Home</a></li>
+	<li><a href="home.html"> Home</a></li> 
 	<li><a href="makanan.html">Makanan</a></li>
 	<li><a href="directory.html">Directory</a></li>
 	<li><a href="promotions.html">Promotions</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
-	<li><a href="search.html">Search Us</a></li>	
+        
 	</ul>
 </div>
 	
 
 	
-	<div class="section">	
+	<div class="section1">	
+	
+	<div id="search">
+	<form >
+			<table>
+				<tr>
+				<td> Search : </td>
+				<td> <input type="text"/> </td>
+			</tr>
+			</table>
+		</form>
+	</div>
+	
+	<div class="terbaru">
+	KULINER TERBARU
+	</div>
 	
 	<div><img src="image/asinan3bsr.jpg" width="80%" height="20%" class="img2"/>
 	</div>
 	<p> Asinan Betawi</p>
 
+	<div class="terbaru">
+	RESTORAN TERBARU
 	</div>
 	
-	<div class="section">	
 	
 	<div><img src="image/kafe betawi.jpeg" width="80%" height="20%" class="img2"/>
 	</div>
@@ -45,46 +62,62 @@
 
 	</div>
 
-
-	
 <div class="article">	
-	
-	<div><img src="image/home.jpeg" width="80%" height="500px" class="img"/>
-	</div>
-	
+
+	<!-- <div><img src="image/home.jpeg.png" width="100%" height="500px" class="img"/>
+	</div> -->
 	<div>
-		
-			
-			<!-- <div class="comment more">-->
+	<video width="100%" height="300px"  controls="controls" loop="loop" poster="D:\group1\image\images.jpeg" id="video">
+  	<source src="D:\group1\image\rangi.mp4" type="video/mp4">
+	</video>
+	</div>
+
+	<div>
+					
 			<p>Betawi merupakan sebutan untuk suku asli kota Jakarta. Sejarah betawi yang begitu dinamis mempengaruhi warisan kulinernya. Makanan Khas Betawi dipengaruhi oleh budaya Cina, Eropa, dan Arab. Citarasa gurih dan sedap merupakan ciri khas khas makanan Betawi. Sebenarnya, Betawi memiliki banyak makanan khas yang lezat. Namun, seiring perkembangan pesat kota Metropolitan Jakarta yang sekaligus ibukota negara Indonesia ini, Makanan Khas Betawi sudah banyak yang langka bahkan nyaris punah</p>
 					
-			<div class="hide">
 			<p>Masakan Betawi mudah ditemukan di acara-acara tertentu yang diselenggarakan di Jakarta se[erti pada acara Lebaran Betawi, pernikahan, hari raya atau di warung/restaurant yang menyajikan makanan khas Betawi</p>
+			
+			<div class="hide">
 			<p>Beberapa jenis masakan Betawi memiliki kemiripan dengan masakan daerah lainnya seperti asinan Betawi mirip dengan asinan Bogor, perbedaannya hanya pada campuran bumbu-bumbu tertentu. Sebagian masakan Betawi hanya disajikan pada momen-momen tertentu misalnya sayur besan hanya bisa dijumpai pada prosesi besanan </p>
 			</div>
 	
 
 	</div>
 	<div>
-		<button id="readMore2"> Read more</button>
+		<button class="readMore2"> Read more</button>
 	</div>
 </div>
 
+<div id="article3">
+	
+	<div>
+	<img src="image/pergikuliner.png" class="img3" widht="70px" height="70px"/>
+	</div>
 
+	<div>
+	<p>KulinerJakarta.com adalah situs direktori dan review tempat makan terlengkap yang memuat informasi tentang makanan khas Betawi dan tempat makan enak di Jakarta beserta promosi-promosi yang tersedia. </p>
+	</div>
+
+</div>
 </body>
 
 
 
 <footer> 
 
-	<div id="footer1">Follow us 
+	<div style="background-color:red" class="footer">Follow us  :     
+	<a href="www.facebook.com"> <img src="image/facebook.png" class="logo"/> </a>
+	<a href="www.twitter.com"> <img src="image/twitter.jpeg" class="logo"/> </a>
+	<a href="www.instagram.com"> <img src="image/insta.jpeg" class="logo"/> </a>
+
 	</div>
+
 	
-	<div id="footer2">Copyright &copy; Pusat Info Kuliner Jakarta. All Right Reserved.
+	<div class="footer">Copyright &copy;Kuliner Jakarta. All Right Reserved.
 	</div>
 
 </footer>
-
 
 <script>
 $(".hide").hide();
@@ -93,6 +126,5 @@ $(".hide").slideToggle("fast");
 });
 
 </script>
-
 
 </html>

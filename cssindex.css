@@ -1,19 +1,32 @@
 ﻿/* header & footer */
+
 #header {
 	color:white;
-	background-color:black;
-	text-align:center;
-	font-family:Verdana;
-	padding:1%;
-	
+	background-color:red;
+	font-family:"AR CHRISTY";
+	font-weight:bolder;
+	font-size:50px;
+	padding-bottom:1%;
+	border:thick black solid;
+	text-align:center
+}
+
+#imghdr {
+	height:75px;
+	weight:75px;
+	margin:20px 20px 0 10px;
+
 }
 
 ul {
 	list-style-type:none;
-	background-color:gray;
-	color:black;
-	margin:0;
+	background-color:silver;
+	margin:1% 0 0 0;
 	padding:2%;
+	font-family:Verdana;
+	font-size:18px;
+	border:thick black ridge;
+
 }
 
 li {
@@ -25,33 +38,32 @@ li {
 li a{
 	
 	display:block;
-	color:white;
-	text-align:center;
-	padding:0px 16px;
+	text-align:left;
+	color:black;
+	font-weight:bold;
+	padding:0px 30px;
 	text-decoration:none;
 }
 
 li a:hover {
-    background-color:yellow;
+    background-color:white;
 }
+
 
 /*Footer */
-#footer1 {
-
-	margin-top:20px;
-	padding:2%;
+.footer {
+	margin-top:3%;
+	padding:1%;
 	color:white;
 	background-color:black;
 	text-align:center;	
 }
 
-#footer2 {
-
-	margin-top:20px;
-	padding:2%;
-	color:white;
-	background-color:black;
-	text-align:center;	
+.logo {
+		float:none;
+		margin:auto 10px auto;
+		width:30px;
+		height:30px; 	
 }
 
 
@@ -59,34 +71,114 @@ li a:hover {
 /* Body */
 
 .article{
-	width:70%;
+	width:60%;
 	text-align:justify;
+	font-family:Calibri;
+	font-size:14px;
 }
 
 .img{
-	float:none;
-	margin:20px 10% 20px 10%;
+	float:left;
+	margin:50px 0 20px 0;
 	border-radius:4%;
 }
 
-.article2{
-	width:20%;
-	text-align:justify;
+#video{
+	float:none;
+	margin:50px 0 20px 0;
 }
 
+/* .article2{
+	width:20%;
+	text-align:justify;
+} */
 
-.section{
+#search {
+	align:center;
+	border:thin black solid;
+	background-color:#99FF99;
+}
+
+.terbaru {
+	color:white;
+	background-color:#FFCC00;
+	font-family:Calibri;
+	font-weight:bolder;
+	font-size:20px;
+	padding-bottom:1%;
+	border:thin black solid;
+	text-align:center;
+	margin:10% 0 0 0;
+}
+
+.section1{
 	width:20%;
 	float:right;
 	padding:2%;
 	height:auto;
-	text-align:justify;
-	
+	text-align:center;
+	font-family:"Arial Black";
+	font-size:14px;
+	font-weight:bold;
+
 }
+
 
 .img2{
 	float:none;
 	border-radius:4%;
-	margin:20px 0 0 0;
+	margin:50px 0 0 0;
 	}
 	
+#article3 {
+	width:60%;
+	color:black;
+	background-color:white;
+	padding:1%;
+	text-align:justify;
+	border:1px black groove;
+	margin-top:5%;
+	font-family:Calibri;
+	font-size:14px;
+}
+
+.img3{
+	float:left;
+	margin:5px 10px 5px 0;
+	}
+
+#contact{
+	font-family:Calibri;
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+/* Membuat Button Search 
+form {
+          width:500px;
+          margin:10px 0 auto;
+          float:right;
+     }
+.search {
+          padding:8px 15px;
+          background: #f0f8ff;
+          border:2px solid #008080;
+     }
+.button {
+          position:relative;
+          left:-4px;
+          padding:10px 15px;
+          border:0px solid #008080;
+          background-color: #6B8E23;
+          color:#fafafa;
+          font-weight:bold;
+     }
+.button:hover {
+          background: #008080;
+          color:#fafafa;
+     }
+          .button:active {
+          background:#9ACD32;
+     }
+*/
