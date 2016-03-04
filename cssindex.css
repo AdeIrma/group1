@@ -18,6 +18,7 @@
 
 }
 
+/* CSS untuk ul yang lama sebelum dropdown */
 ul {
 	list-style-type:none;
 	background-color:silver;
@@ -48,6 +49,7 @@ li a{
 li a:hover {
     background-color:white;
 }
+
 
 
 /*Footer */
@@ -187,14 +189,12 @@ form {
 
  /* Dropdown Button */
 .dropbtn {
-    background-color: #4CAF50;
     color: white;
     padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
 }
-
 
 
 ul {
@@ -218,7 +218,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
+    background-color:red;
 }
 
 li.dropdown {

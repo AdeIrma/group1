@@ -37,9 +37,17 @@
       <a href="#">Soto Betawi</a>
       <a href="#">Kue Rangi</a>
       <a href="#">Roti Buaya</a>
-    </div>
-  </li>
-	<li><a href="directory.html">Directory</a></li>
+    </div> </li>
+    
+   <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn" onclick="myFunction2()">Directory</a>
+    <div class="dropdown-content" id="myDropdown2">
+      <a href="#">Soto Betawi Haji Mamat</a>
+      <a href="#">Sop Kaki Dudung</a>
+      <a href="#">Roti Buaya</a>
+    </div> 
+    </li>
+  
 	<li><a href="promotions.html">Promotions</a></li>
 	<li><a href="contact.html">Contact Us</a></li>
  </ul> 
@@ -146,10 +154,32 @@ $(".hide").slideToggle("fast");
 
 
 <script>
-/* Script untuk DROPDOWN When the user clicks on the button, 
+/* Script untuk DROPDOWN MAKANAN When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+<script>
+/* Script untuk DROPDOWN DIRECTORY When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction2() {
+    document.getElementById("myDropdown2").classList.toggle("show");
 }
 
 // Close the dropdown if the user clicks outside of it
